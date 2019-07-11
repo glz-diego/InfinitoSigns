@@ -1,0 +1,84 @@
+#full_logo{
+	margin-left: 40px;
+	padding-bottom: 20px;
+}
+#logo{
+	width: 115px;
+	margin-top: -5px;
+	margin-right: 20px;
+	position: relative;
+	right: 13px;
+}
+#logo_name{
+	width: 261px;
+	height: 113px;
+	margin-top: 15px;
+	position: relative;
+	right: 11px;
+}
+#bgblue{
+	background-color: rgb(1,124,201);
+	width: 100%;
+	height: 465px;
+	color: white;/*
+	z-index: 1;
+	position: relative;
+	top: -10px;*/
+}
+.spanish{
+	margin: 5px 0px;
+	width: 100%;
+}
+.carousel{
+	/*position: absolute!important;*/
+	left: 146px;
+	top: -202px;
+}
+.carousel-item{
+	/*width: 375px!important;*/
+}
+#mac{
+	position: relative;
+	left: 120px;
+	top: 120px;
+}
+.carousel-control-next, .carousel-control-prev {
+	width: 50px!important;
+}
+.menu{
+	margin-right: 1px;
+	margin-top: 40px;
+	width: 90px;
+}
+#helloNote{
+	font-size: 65px;
+	font-weight: bold;
+	position: relative;
+	top: 15px;
+	left: 60px;
+}
+#viewWork{
+	border: 1px solid black;
+	border-radius: 3px;
+	position: relative;
+	top: 15px;
+	left: 60px;
+	padding: 15px 35px;
+	margin: 15px 0px;
+}
+
+.btn{
+	margin: 3px 2px;
+	border-radius: 0px;
+}
+.btn:hover{
+	background-color: lightgray;
+}
+#nav{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	box-shadow: 0px 0px 10px 0px #363636;
+	z-index: 2;
+	border-radius: 10px;
+}
