@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="styles2.css">
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script type="text/javascript" src="script.js"></script>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -13,14 +14,17 @@
 	<body>
 		<nav>
 			<div id="nav" style="justify-content: flex-end; position: fixed;left: 5%; top: 20px;">
-				<a href="#" style="margin-left: 10px; " class="btn" onclick="xMenu()"><i class="fas fa-times"></i></a>
-				<a style="border-right: 2px solid lightgray; margin-left: 2px;"></a>
-				<a href="Links/Services.html" style="margin-left: 5px;"><input type="button" class="btn" value="Services"></a>
-				<a href="Links/Work.html"><input type="button" class="btn" value="Work"></a>
-				<a href="Links/Quotes.html"><input type="button" class="btn" value="Quotes"></a>
-				<a href="Links/About.html" style="margin-right: 10px;"><input type="button" class="btn" value="About Us"></a>
+				<a href="#" style="margin-left: 10px; " class="btn" onclick="displayMenu()"><i class="fas fa-times"></i></a>
+				
+				<span id="menu-buttons">
+					<a style="border-right: 2px solid lightgray; margin-left: 2px; display: none" class="menu-button"></a>
+					<a href="Links/Services.html" style="margin-left: 5px; display: block"><input type="button" class="btn menu-button" value="Services"></a>
+					<a href="Links/Work.html"><input type="button" class="btn menu-button" value="Work"></a>
+					<a href="Links/Quotes.html"><input type="button" class="btn menu-button" value="Quotes"></a>
+					<a href="Links/About.html" style="margin-right: 10px;"><input type="button" class="btn menu-button" value="About Us"></a>
+				</span>
 			</div>
-			<a href="Links/Spanish.html"><input style="position: fixed;right: 5%; top: 20px;box-shadow: 0px 0px 10px 0px #363636;" type="button" class="btn btn-dark" value="Spanish"></a>
+			<a href="Links/Spanish.html"><input style="position: fixed;right: 5%; top: 20px;box-shadow: 0px 0px 10px 0px #363636;" type="button" class="btn btn-info" value="Spanish"></a>
 		</nav>
 
 		<div id="bgblue">
